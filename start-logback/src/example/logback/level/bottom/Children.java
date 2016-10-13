@@ -3,9 +3,6 @@ package example.logback.level.bottom;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author: sonegy@sk.com
- */
 public class Children {
     private static final Logger logger = LoggerFactory.getLogger(Children.class);
 

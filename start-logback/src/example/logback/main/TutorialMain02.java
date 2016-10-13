@@ -6,9 +6,6 @@ import example.logback.level.top.Parents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author: sonegy@sk.com
- */
 public class TutorialMain02 {
     private static final Logger logger = LoggerFactory.getLogger(TutorialMain02.class);
 

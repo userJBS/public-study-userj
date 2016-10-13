@@ -2,17 +2,17 @@
 <configuration>
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<layout class="ch.qos.logback.classic.PatternLayout">
-			<pattern> %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+			<pattern> 
+				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{26} - %msg%n
+			</pattern>
 		</layout>
 	</appender>
 
 
-	<logger name="com.userj.domain" level="debug" />
+	<logger name="example.logback.main" level="info" />
 
-
-	<root level="debug">
+	<root level="trace">
 		<appender-ref ref="STDOUT" />
 	</root>
-
 
 </configuration>
