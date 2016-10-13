@@ -1,15 +1,16 @@
-package example.logback.level.grandparents;
+package example.logback.main;
 
-import example.logback.level.grandparents.parents.Parents;
-import example.logback.level.grandparents.parents.children.Children;
+import example.logback.level.bottom.Children;
+import example.logback.level.top.Parents;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
  * @author: sonegy@sk.com
  */
-public class Grandparents {
-    private static final Logger logger = LoggerFactory.getLogger(Grandparents.class);
+public class TutorialMain02 {
+    private static final Logger logger = LoggerFactory.getLogger(TutorialMain02.class);
 
     public void run() {
         logger.trace("trace");
@@ -20,7 +21,7 @@ public class Grandparents {
     }
 
     public static void main(String[] args) {
-        new Grandparents().run();
+        new TutorialMain02().run();
         new Parents().run();
         new Children().run();
     }

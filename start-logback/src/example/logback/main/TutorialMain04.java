@@ -1,15 +1,18 @@
+package example.logback.main;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MyClass {
-	//private static final Logger log = LoggerFactory.getLogger(MyClass.class);
+public class TutorialMain04 {
+	 // private static final Logger log = LoggerFactory.getLogger(LogMain.class);
 
 	public static void main(String[] args) {
-		MyClass class1 = new MyClass();
+		
+		TutorialMain04 class1 = new TutorialMain04();
 		class1.logSimpleMessage();
 		class1.logWithTag();
 		class1.logWithExtras();
 		class1.logException();
+		
 	}
 
 	void logSimpleMessage() {
@@ -28,7 +31,7 @@ public class MyClass {
 		try {
 			exceptionMethod();
 		} catch (Exception e) {
-			log.error("Exception caught {}", e.getMessage());
+			log.error("RuntimeException : {}", e.getMessage());
 		}
 	}
 

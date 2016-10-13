@@ -6,7 +6,9 @@
 		</layout>
 	</appender>
 
+
 	<logger name="com.userj.domain" level="debug" />
+
 
 	<root level="debug">
 		<appender-ref ref="STDOUT" />

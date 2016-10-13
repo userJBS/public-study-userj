@@ -1,4 +1,4 @@
-package example.logback;
+package example.logback.main;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 /**
  * @author: sonegy@sk.com
  */
-public class Tutorial {
-    private static final Logger logger = LoggerFactory.getLogger(Tutorial.class);
+public class TutorialMain01 {
+    private static final Logger logger = LoggerFactory.getLogger(TutorialMain01.class);
 
     public static void main(String[] args) {
 

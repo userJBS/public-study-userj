@@ -1,4 +1,4 @@
-package example.logback.level.grandparents.parents.children;
+package example.logback.level.bottom;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
